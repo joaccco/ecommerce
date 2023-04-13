@@ -7,10 +7,6 @@ const fetchProducts = () => {
 export async function ListOfProducts () {
     const products = await fetchProducts()
 
-    const handleClick = () => {
-        alert('Me gusta')
-    }
-
     return products.map(product => (
                 <article key={product.id}>
                 <h2 style={{color: '#09f' }}>{product.title}</h2>

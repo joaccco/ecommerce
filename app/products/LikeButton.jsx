@@ -1,7 +1,13 @@
 export function LikeButton () {
     return (
-        <button>
+        <button onClick={() => }>
+            {liked ? '' : ''} 
+        </button>
+    )
+
+    return (
+        <button onClick={handleClick}>
             Me Gusta
         </button>
     )
-}
+mj
