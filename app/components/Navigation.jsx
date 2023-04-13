@@ -24,6 +24,7 @@ const links = [{
         <header className={styles.header}>
         <nav>
           <ul className={styles.navigation}>
+          <p className="text-left">Ecommerce</p>
             {links.map(( { label, route }) => (
               <li key={route}>
                 <Link href={route}>
