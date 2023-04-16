@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
       <body>
 
         <Navigation />
+        <div className='mt-36'>
         {children}
+        </div>
 
       </body>
     </html>

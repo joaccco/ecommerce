@@ -1,4 +1,4 @@
-import { LikeButton } from './LikeButton.jsx';
+/* import { LikeButton } from './LikeButton.jsx'; */
 const fetchProducts = () => {
     return fetch('https://jsonplaceholder.typicode.com/posts')
       .then(res => res.json())
@@ -11,7 +11,7 @@ export async function ListOfProducts () {
                 <article key={product.id}>
                 <h2 style={{color: '#09f' }}>{product.title}</h2>
                 <p>{product.body}</p>
-                <LikeButton />
+                {/* <LikeButton /> */}
                 </article>
                 ))
 }
