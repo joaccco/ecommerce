@@ -1,13 +1,13 @@
-export function LikeButton () {
-    return (
-        <button onClick={() => }>
-            {liked ? '' : ''} 
-        </button>
-    )
+'use client'
 
+import { useState } from "react"
+
+
+export function LikeButton ({id}) {
+const [liked, setLiked] = useState(false)
     return (
-        <button onClick={handleClick}>
-            Me Gusta
+        <button onClick={() => setLiked(!liked)}>
+            {liked ? '♥️' : '♡'} 
         </button>
     )
-mj
+    }

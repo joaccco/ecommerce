@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Ecommerce</title>
       </head>
-      <body>
+      <body className='bg-gray-900'>
 
         <Navigation />
         <div className='mt-36'>
